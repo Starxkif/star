@@ -1,4 +1,4 @@
-package test;
+package game;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

@@ -1,11 +1,11 @@
-package test;
+package game;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-import test.gamePanel.Status;
+import game.gamePanel.Status;
 
 import javax.swing.JMenuBar;
 import javax.swing.JToolBar;
