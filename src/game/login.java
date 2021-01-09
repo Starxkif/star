@@ -60,12 +60,10 @@ public class login extends JFrame {
 		JTextField userText = new JTextField();
 		userText.setBounds(150, 20, 150, 25);
 		p2.add(userText);
-		userText.setColumns(16);
 		
 		JPasswordField passwordText = new JPasswordField();
 		passwordText.setBounds(150, 55, 150, 25);
 		p2.add(passwordText);
-		passwordText.setColumns(16);
 		
 		JButton loginButton = new JButton("登入");
 		loginButton.setMnemonic(KeyEvent.VK_ENTER);

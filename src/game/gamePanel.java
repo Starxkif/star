@@ -342,13 +342,4 @@ public class gamePanel extends JPanel {
 		}
 		return true;
 	}
-	public static void main(String[] args) {
-		SQLOperation.loadMysql();
-		JFrame frame = new JFrame();
-		gamePanel gp = new gamePanel();
-		frame.setBounds(100, 100, 550, 550);
-		frame.setLayout(null);
-		frame.add(gp);
-		frame.setVisible(true);
-	}
 }

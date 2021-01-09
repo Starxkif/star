@@ -44,7 +44,6 @@ public class register extends JDialog {
 		JTextField userText = new JTextField();
 		userText.setBounds(100, 20, 150, 22);
 		contentPanel.add(userText);
-		userText.setColumns(10);
 		
 		JPasswordField passwordText = new JPasswordField();
 		passwordText.setBounds(100, 50, 150, 22);
